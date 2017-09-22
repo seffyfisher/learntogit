@@ -1,0 +1,37 @@
+html,body{
+    margin:0;
+    padding:0;
+            font-family: system-ui;
+        background:#e8e8e8;
+}
+
+
+p::first-letter{
+    font-size: 130%;
+    font-family: serif;
+}
+p{
+    padding:5px;
+}
+
+h1{
+    margin:0;
+    padding:0;
+    width:100%;
+    border-bottom: 1px solid #eee;
+    color:darkslategrey;
+    position:sticky;
+    top:0;
+    background:white;
+    box-shadow: 0px 5px 17px 0px rgba(56, 56, 56, 0.10);
+}
+
+ul{
+    list-style: none;
+    padding:10px;
+}
+li{
+    border-left: 3px solid gray;
+    padding-left:2px;
+    margin:10px;
+}
