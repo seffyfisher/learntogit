@@ -4,15 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <title>first git with desktop</title>
 </head>
 <body>
     <h1>GIT with desktopGit</h1>
     
+<!-- start of bar -->
+    <div id="barwrap">
+
+  <div class="bar">
+
+  <span id="head-image"><img src="img/authkey.png" alt=""></span>
+  
+  <span id="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac nunc placerat, mollis lectus ut, lobortis enim.</span>
+  <span id="otherimg"></span>
+  <span id="ok"><a href="#">Dismiss</a></span>
+  </div>
+</div>
+<!--end of bar-->
+    
     
 	<p>just commited the first time using the gui</p>
 	
-	<ul>
+	<ul class="list">
 	    
 	    <li>home</li>
 	    <li>about</li>
@@ -20,61 +36,61 @@
 	    <li>contact</li>
 	</ul>
 	
-		<ul>
+		<ul class="list">
 	    
 	    <li>home</li>
 	    <li>about</li>
 	    <li>more</li>
 	    <li>contact</li>
 	</ul>
-		<ul>
+		<ul class="list">
 	    
 	    <li>home</li>
 	    <li>about</li>
 	    <li>more</li>
 	    <li>contact</li>
 	</ul>
-		<ul>
+		<ul class="list">
 	    
 	    <li>home</li>
 	    <li>about</li>
 	    <li>more</li>
 	    <li>contact</li>
 	</ul>
-		<ul>
-	    
-	    <li>home</li>
-	    <li>about</li>
-	    <li>more</li>
-	    <li>contact</li>
-	</ul>
-		<ul>
-	    
-	    <li>home</li>
-	    <li>about</li>
-	    <li>more</li>
-	    <li>contact</li>
-	</ul>
-		<ul>
-	    
-	    <li>home</li>
-	    <li>about</li>
-	    <li>more</li>
-	    <li>contact</li>
-	</ul>
-		<ul>
-	    
-	    <li>home</li>
-	    <li>about</li>
-	    <li>more</li>
-	    <li>contact</li>
-	</ul>
-		<ul>
-	    
-	    <li>home</li>
-	    <li>about</li>
-	    <li>more</li>
-	    <li>contact</li>
-	</ul>
+
+<script>
+///js///
+//    //get all ul tags with class "list"
+//    let lists = document.getElementsByClassName("list");
+    //or 
+    //listsModren = document.querySelectorAll(".list");
+    
+//    console.log(lists);
+//    
+//    //change each ul innerHTML to bla
+//    for(let i=0;i<lists.length;i++){
+//        lists[i].innerHTML="bla"
+//    }
+    
+    01
+$(function() {
+  setTimeout(function() {
+    return $(".bar").animate({
+      height: "toggle"
+    }, "slow")
+  }, 450);
+    return $("#ok").on("click", function() {
+    $("#barwrap").css("margin-bottom", "0px");
+    $(".bar").animate({
+      height: "toggle"
+    }, "slow");
+    return !1
+  })
+});
+
+    
+    
+</script>
+
 </body>
 </html>
